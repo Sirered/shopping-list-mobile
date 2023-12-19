@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Provider(
-      create: (_) {
+      create: (_) { 
           CookieRequest request = CookieRequest();
           return request;
       },
